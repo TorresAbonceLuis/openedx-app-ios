@@ -94,10 +94,10 @@
 		A52897DC2E276B12009C7044 /* CourseGradeCarouselSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52897DB2E276B02009C7044 /* CourseGradeCarouselSlideView.swift */; };
 		A52897DE2E277A7C009C7044 /* GradeItemCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52897DD2E277A7C009C7044 /* GradeItemCarouselView.swift */; };
 		A52897E02E278D7D009C7044 /* ViewAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52897DF2E278D7D009C7044 /* ViewAllButton.swift */; };
+		A59016D52E69B2E900076220 /* VideoNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59016D42E69B2E900076220 /* VideoNavigationView.swift */; };
 		A5A510A22E66E8D600553607 /* CourseVideoCarouselSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A510A12E66E8D600553607 /* CourseVideoCarouselSlideView.swift */; };
 		A5A510A42E6728AD00553607 /* CourseAssignmentsCarouselSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A510A32E6728AD00553607 /* CourseAssignmentsCarouselSlideView.swift */; };
 		A5A510A62E672E4A00553607 /* AssignmentCarouselDetailCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A510A52E672E4A00553607 /* AssignmentCarouselDetailCardView.swift */; };
-		A59016D52E69B2E900076220 /* VideoNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59016D42E69B2E900076220 /* VideoNavigationView.swift */; };
 		B8F50317B6B830A0E520C954 /* Pods_App_Course_CourseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E59D2B81E12610964282C5 /* Pods_App_Course_CourseTests.framework */; };
 		BA58CF5D2B3D804D005B102E /* CourseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58CF5C2B3D804D005B102E /* CourseStorage.swift */; };
 		BA58CF612B471041005B102E /* VideoDownloadQualityBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58CF602B471041005B102E /* VideoDownloadQualityBarView.swift */; };
@@ -107,6 +107,8 @@
 		BAC0E0DE2B32F0F3006B68A9 /* DownloadsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0E0DD2B32F0F3006B68A9 /* DownloadsViewModel.swift */; };
 		BAD9CA2D2B2736BB00DE790A /* LessonLineProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD9CA2C2B2736BB00DE790A /* LessonLineProgressView.swift */; };
 		BAD9CA4A2B2C88E000DE790A /* CourseVideoDownloadBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD9CA492B2C88E000DE790A /* CourseVideoDownloadBarView.swift */; };
+		CB3B72C92F3270A800029611 /* CourseProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B72C82F3270A800029611 /* CourseProgressCircleView.swift */; };
+		CB3B72CB2F3270FC00029611 /* SegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B72CA2F3270FC00029611 /* SegmentedProgressView.swift */; };
 		CE02086C2E0EC88C005999E2 /* VideosContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02086B2E0EC88C005999E2 /* VideosContentView.swift */; };
 		CE1AC4012E055CCD00618645 /* CourseProgressScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC3FF2E055CCD00618645 /* CourseProgressScreenView.swift */; };
 		CE1AC4032E05A33D00618645 /* Data_CourseProgressResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC4022E05A33D00618645 /* Data_CourseProgressResponse.swift */; };
@@ -115,8 +117,6 @@
 		CE1AC40C2E06DCC900618645 /* OverallGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC40A2E06DCC900618645 /* OverallGradeView.swift */; };
 		CE1AC40D2E06DCC900618645 /* GradeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC4092E06DCC900618645 /* GradeItemView.swift */; };
 		CE1AC40E2E06DCC900618645 /* GradeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC4082E06DCC900618645 /* GradeDetailsView.swift */; };
-		CE1AC41BFAF7140618645 /* CourseProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC41AFAF7140618645 /* CourseProgressCircleView.swift */; };
-		CE1AC45F0EDBBF0618645 /* SegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC45E0EDBBF0618645 /* SegmentedProgressView.swift */; };
 		CE4BA8832E0806380050F2C7 /* CourseProgressViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4BA8822E0806380050F2C7 /* CourseProgressViewModelTests.swift */; };
 		CE4BA9162E0AC3790050F2C7 /* CourseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4BA9142E0AC3790050F2C7 /* CourseContentView.swift */; };
 		CE4BA9192E0AC99A0050F2C7 /* ContentSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4BA9172E0AC99A0050F2C7 /* ContentSegmentedControl.swift */; };
@@ -253,24 +253,54 @@
 		0766DFCD299AB26D00EBEF6A /* EncodedVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodedVideoPlayer.swift; sourceTree = "<group>"; };
 		0766DFCF299AB29000EBEF6A /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		07DE59852BECB868001CBFBC /* CourseAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseAnalytics.swift; sourceTree = "<group>"; };
+		138D4859A788BD32D3D6706F /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1E4B4DDB95523F2C5F5567B6 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		205245A389E19ABCD9604A3D /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		22BE4A048BE8BC980769AB38 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		299A4FD4982A581C1FD62515 /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2A444220A08C5035164B071F /* Pods-App-Course-CourseTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course-CourseTests.releasedev.xcconfig"; path = "Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		2B8C415D9F76AB9E129E92A4 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		315A42C1A7BA02F923ADB46E /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Localizable.strings; sourceTree = "<group>"; };
+		35674A9CAE7A9DCB1874BE5C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3A55620C6018088BFF77F9AE /* Pods-App-CourseDetails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-CourseDetails.debug.xcconfig"; path = "Target Support Files/Pods-App-CourseDetails/Pods-App-CourseDetails.debug.xcconfig"; sourceTree = "<group>"; };
 		3D506212980347A9D5A70E20 /* Pods-App-Course.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course.debugstage.xcconfig"; path = "Target Support Files/Pods-App-Course/Pods-App-Course.debugstage.xcconfig"; sourceTree = "<group>"; };
+		3E234525BD88C9304521D897 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		418D00932369361311AEEBD3 /* Pods-App-Course-CourseTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course-CourseTests.debugprod.xcconfig"; path = "Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		472C44DC89CCBBB1051FAE6F /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4D2F08669DD2579EAAE02E2F /* Pods-App-Course.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course.releasedev.xcconfig"; path = "Target Support Files/Pods-App-Course/Pods-App-Course.releasedev.xcconfig"; sourceTree = "<group>"; };
 		4DD47D29A4059C1222E8B7D2 /* Pods-App-Course-CourseTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course-CourseTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		50E59D2B81E12610964282C5 /* Pods_App_Course_CourseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Course_CourseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A3A7BA0FC6386531BE678A /* Pods-App-CourseDetails.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-CourseDetails.debugdev.xcconfig"; path = "Target Support Files/Pods-App-CourseDetails/Pods-App-CourseDetails.debugdev.xcconfig"; sourceTree = "<group>"; };
+		5E2646D996CA3EDF4C6E0C4E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5ECB4AEDA2A84CDFDE1DA928 /* es_419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_419; path = es_419.lproj/Localizable.strings; sourceTree = "<group>"; };
 		600A464AEDA7BEFEC1A7FE99 /* Pods-App-Course-CourseTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course-CourseTests.debugdev.xcconfig"; path = "Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		60D3483FB9B24B5F3AED7BE2 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		63284605AB28414500A181F0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		659749D9A032F7963CE446CD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		68454114853C827564EC7282 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		69A261790A0B4C724CCFA4F2 /* Pods-App-CourseDetails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-CourseDetails.release.xcconfig"; path = "Target Support Files/Pods-App-CourseDetails/Pods-App-CourseDetails.release.xcconfig"; sourceTree = "<group>"; };
+		6A51438EB6F4A1D242BC71EA /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6EFF4517BA5D5FA562EBD967 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6F594A5B92C7FB49E2DA6465 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		748E452EA8B334C4EC1C85E2 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75824CD59699D325B8883EC4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7586421796D7DEFD419C5787 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77754C5EAF5B668E1C8EF912 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		800041C183CA13CB215503F5 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		831B08139890634968EDD44D /* Pods-App-Course-CourseTests.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course-CourseTests.debugstage.xcconfig"; path = "Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests.debugstage.xcconfig"; sourceTree = "<group>"; };
+		8FEA4051918F697464946749 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90C647169B7A34EBEAC706A6 /* sw */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sw; path = sw.lproj/Localizable.strings; sourceTree = "<group>"; };
 		975F475D2B6151FD00E5B031 /* CourseDatesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDatesMock.swift; sourceTree = "<group>"; };
 		975F475F2B615DA700E5B031 /* CourseStructureMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStructureMock.swift; sourceTree = "<group>"; };
+		976B47CAAE4D40B6D37DF115 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		97C99C352B9A08FE004EEDE2 /* CalendarSyncProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSyncProgressView.swift; sourceTree = "<group>"; };
 		97CA95242B875EE200A9EDEA /* DatesSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesSuccessView.swift; sourceTree = "<group>"; };
 		97E7DF0E2B7C852A00A2A09B /* DatesStatusInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesStatusInfoView.swift; sourceTree = "<group>"; };
 		99AEF08FD75F1509863D3302 /* Pods-App-CourseDetails.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-CourseDetails.debugprod.xcconfig"; path = "Target Support Files/Pods-App-CourseDetails/Pods-App-CourseDetails.debugprod.xcconfig"; sourceTree = "<group>"; };
 		9B5D3D31A9CFA08B6C4347BD /* Pods-App-CourseDetails.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-CourseDetails.releasedev.xcconfig"; path = "Target Support Files/Pods-App-CourseDetails/Pods-App-CourseDetails.releasedev.xcconfig"; sourceTree = "<group>"; };
+		9E344E35933ED37D75D1A15D /* bo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bo; path = bo.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1344823ACFDE867B8A110B0 /* az */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = az; path = az.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1EF4F889C4256018AF7A478 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A47C63D9EB0D866F303D4588 /* Pods-App-Course.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course.releasestage.xcconfig"; path = "Target Support Files/Pods-App-Course/Pods-App-Course.releasestage.xcconfig"; sourceTree = "<group>"; };
 		A52897D02E24F5C1009C7044 /* CourseCompletionCarouselSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCompletionCarouselSlideView.swift; sourceTree = "<group>"; };
 		A52897D32E24FA9F009C7044 /* CourseOutlineAndProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseOutlineAndProgressView.swift; sourceTree = "<group>"; };
@@ -279,12 +309,14 @@
 		A52897DB2E276B02009C7044 /* CourseGradeCarouselSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseGradeCarouselSlideView.swift; sourceTree = "<group>"; };
 		A52897DD2E277A7C009C7044 /* GradeItemCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeItemCarouselView.swift; sourceTree = "<group>"; };
 		A52897DF2E278D7D009C7044 /* ViewAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllButton.swift; sourceTree = "<group>"; };
+		A59016D42E69B2E900076220 /* VideoNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoNavigationView.swift; sourceTree = "<group>"; };
 		A5A510A12E66E8D600553607 /* CourseVideoCarouselSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseVideoCarouselSlideView.swift; sourceTree = "<group>"; };
 		A5A510A32E6728AD00553607 /* CourseAssignmentsCarouselSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseAssignmentsCarouselSlideView.swift; sourceTree = "<group>"; };
 		A5A510A52E672E4A00553607 /* AssignmentCarouselDetailCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentCarouselDetailCardView.swift; sourceTree = "<group>"; };
-		A59016D42E69B2E900076220 /* VideoNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoNavigationView.swift; sourceTree = "<group>"; };
 		ADC2A1B8183A674705F5F7E2 /* Pods-App-Course.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course.debug.xcconfig"; path = "Target Support Files/Pods-App-Course/Pods-App-Course.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E54812980D3F56BF836EE8 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B196A14555D0E006995A5683 /* Pods-App-CourseDetails.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-CourseDetails.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-CourseDetails/Pods-App-CourseDetails.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		B9E9465ABAE0AC752E3A9E7C /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA58CF5C2B3D804D005B102E /* CourseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStorage.swift; sourceTree = "<group>"; };
 		BA58CF602B471041005B102E /* VideoDownloadQualityBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDownloadQualityBarView.swift; sourceTree = "<group>"; };
 		BA58CF632B471363005B102E /* VideoDownloadQualityContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDownloadQualityContainerView.swift; sourceTree = "<group>"; };
@@ -293,6 +325,13 @@
 		BAC0E0DD2B32F0F3006B68A9 /* DownloadsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewModel.swift; sourceTree = "<group>"; };
 		BAD9CA2C2B2736BB00DE790A /* LessonLineProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonLineProgressView.swift; sourceTree = "<group>"; };
 		BAD9CA492B2C88E000DE790A /* CourseVideoDownloadBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseVideoDownloadBarView.swift; sourceTree = "<group>"; };
+		BB7942BEAE9E9396EF995637 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C30140D29AAB2D4A016A74A5 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C89F43B7B7A53385306758AA /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C90D480087EF6DCAB6B7BA13 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CB3B72C82F3270A800029611 /* CourseProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProgressCircleView.swift; sourceTree = "<group>"; };
+		CB3B72CA2F3270FC00029611 /* SegmentedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressView.swift; sourceTree = "<group>"; };
+		CD41479AA66F2A98F81F47F1 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE02086B2E0EC88C005999E2 /* VideosContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosContentView.swift; sourceTree = "<group>"; };
 		CE1AC3FF2E055CCD00618645 /* CourseProgressScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProgressScreenView.swift; sourceTree = "<group>"; };
 		CE1AC4022E05A33D00618645 /* Data_CourseProgressResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_CourseProgressResponse.swift; sourceTree = "<group>"; };
@@ -301,8 +340,6 @@
 		CE1AC4082E06DCC900618645 /* GradeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeDetailsView.swift; sourceTree = "<group>"; };
 		CE1AC4092E06DCC900618645 /* GradeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeItemView.swift; sourceTree = "<group>"; };
 		CE1AC40A2E06DCC900618645 /* OverallGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallGradeView.swift; sourceTree = "<group>"; };
-		CE1AC41AFAF7140618645 /* CourseProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProgressCircleView.swift; sourceTree = "<group>"; };
-		CE1AC45E0EDBBF0618645 /* SegmentedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressView.swift; sourceTree = "<group>"; };
 		CE4BA8822E0806380050F2C7 /* CourseProgressViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProgressViewModelTests.swift; sourceTree = "<group>"; };
 		CE4BA9142E0AC3790050F2C7 /* CourseContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseContentView.swift; sourceTree = "<group>"; };
 		CE4BA9172E0AC99A0050F2C7 /* ContentSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSegmentedControl.swift; sourceTree = "<group>"; };
@@ -331,17 +368,26 @@
 		CECF38322E3A4BB100184EC4 /* VideoContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContentData.swift; sourceTree = "<group>"; };
 		CECF38352E3A545B00184EC4 /* AssignmentContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentContentData.swift; sourceTree = "<group>"; };
 		CECF38372E3A73C200184EC4 /* VideoThumbnailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoThumbnailService.swift; sourceTree = "<group>"; };
+		D14C49FC9555CF603F519FB9 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D503437090FC3CC760ECD22E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DB205BFA2AE81B1200136EC2 /* CourseDateViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDateViewModelTests.swift; sourceTree = "<group>"; };
 		DB7D6EAB2ADFCAC40036BB13 /* CourseDatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDatesView.swift; sourceTree = "<group>"; };
 		DB7D6EAD2ADFCB4A0036BB13 /* CourseDatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDatesViewModel.swift; sourceTree = "<group>"; };
 		DBE05972CB5115D4535C6B8A /* Pods-App-Course-CourseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course-CourseTests.debug.xcconfig"; path = "Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD474FFB928D40F5598DDDF1 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DD544800BFA191F0D40F8C7C /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = "it-IT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DF25417AAA2C0635EA9F1E23 /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E5E795BD160CDA7D9C120DE6 /* Pods_App_Course.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Course.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BDAE887ED8A46860B3F6D3 /* Pods-App-Course-CourseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course-CourseTests.release.xcconfig"; path = "Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests.release.xcconfig"; sourceTree = "<group>"; };
 		E954A304FDC0409BEC34C125 /* Pods-App-Course.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course.debugprod.xcconfig"; path = "Target Support Files/Pods-App-Course/Pods-App-Course.debugprod.xcconfig"; sourceTree = "<group>"; };
+		EBAA4C19BF82F6B83069B968 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EBB67646EDD08315BA7B3DC5 /* Pods-App-Course-CourseTests.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course-CourseTests.releasestage.xcconfig"; path = "Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests.releasestage.xcconfig"; sourceTree = "<group>"; };
 		EDCFD7A1BFD2200B14F10F71 /* Pods-App-Course.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course.debugdev.xcconfig"; path = "Target Support Files/Pods-App-Course/Pods-App-Course.debugdev.xcconfig"; sourceTree = "<group>"; };
+		F05B47B9894A4D441FC86F5F /* de-DE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de-DE"; path = "de-DE.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F234455FA94C7EBEC0752FDD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4640D6B8065C404E0BC30D5 /* Pods-App-Course.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course.release.xcconfig"; path = "Target Support Files/Pods-App-Course/Pods-App-Course.release.xcconfig"; sourceTree = "<group>"; };
 		F496B47B12CFD866EA6845CC /* Pods-App-Course.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Course.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-Course/Pods-App-Course.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		FE5546C0B0A213E794954EB8 /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -785,12 +831,12 @@
 			isa = PBXGroup;
 			children = (
 				A52897DF2E278D7D009C7044 /* ViewAllButton.swift */,
-				CE1AC41AFAF7140618645 /* CourseProgressCircleView.swift */,
 				CE1AC4082E06DCC900618645 /* GradeDetailsView.swift */,
 				CE1AC4092E06DCC900618645 /* GradeItemView.swift */,
 				A52897DD2E277A7C009C7044 /* GradeItemCarouselView.swift */,
 				CE1AC40A2E06DCC900618645 /* OverallGradeView.swift */,
-				CE1AC45E0EDBBF0618645 /* SegmentedProgressView.swift */,
+				CB3B72C82F3270A800029611 /* CourseProgressCircleView.swift */,
+				CB3B72CA2F3270FC00029611 /* SegmentedProgressView.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -976,6 +1022,43 @@
 				en,
 				Base,
 				uk,
+				ar,
+				fa,
+				"zh-HK",
+				bo,
+				"af-ZA",
+				vi,
+				lv,
+				uz,
+				he,
+				el,
+				ja,
+				sq,
+				"it-IT",
+				es_419,
+				sw,
+				da,
+				kk,
+				"fr-CA",
+				"tr-TR",
+				"es-ES",
+				sv,
+				te,
+				ko,
+				hu,
+				pl,
+				"pt-BR",
+				ru,
+				"zh-CN",
+				"de-DE",
+				fr,
+				id,
+				nl,
+				th,
+				az,
+				"pt-PT",
+				ro,
+				hi,
 			);
 			mainGroup = 0289F8E428E1C3510064F8F3;
 			packageReferences = (
@@ -1039,9 +1122,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-App-Course-CourseTests/Pods-App-Course-CourseTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1116,6 +1203,7 @@
 			files = (
 				06FD7EE32B1F3FF6008D632B /* DropdownAnimationModifier.swift in Sources */,
 				067B7B542BED339200D1768F /* YoutubePlayerViewControllerHolder.swift in Sources */,
+				CB3B72CB2F3270FC00029611 /* SegmentedProgressView.swift in Sources */,
 				02FFAD0D29E4347300140E46 /* VideoPlayerViewModel.swift in Sources */,
 				02454CA42A26193F0043052A /* WebView.swift in Sources */,
 				022C64DA29ACEC50000F532B /* HandoutsViewModel.swift in Sources */,
@@ -1186,6 +1274,7 @@
 				CE812FAB2E15157600EDCC63 /* VideoSectionView.swift in Sources */,
 				02228B2F2C221412009A5F28 /* LargestDownloadsView.swift in Sources */,
 				0295C889299BBE8200ABE571 /* CourseNavigationView.swift in Sources */,
+				CB3B72C92F3270A800029611 /* CourseProgressCircleView.swift in Sources */,
 				CE83F7A02E5DD516004E0F7B /* CourseContainerViewModel.swift in Sources */,
 				CE83F79E2E5DD4AD004E0F7B /* CourseContainerView.swift in Sources */,
 				CE1AC4012E055CCD00618645 /* CourseProgressScreenView.swift in Sources */,
@@ -1219,8 +1308,6 @@
 				CE1AC40C2E06DCC900618645 /* OverallGradeView.swift in Sources */,
 				CE1AC40D2E06DCC900618645 /* GradeItemView.swift in Sources */,
 				CE1AC40E2E06DCC900618645 /* GradeDetailsView.swift in Sources */,
-				CE1AC41BFAF7140618645 /* CourseProgressCircleView.swift in Sources */,
-				CE1AC45F0EDBBF0618645 /* SegmentedProgressView.swift in Sources */,
 				02454CA82A2619890043052A /* DiscussionView.swift in Sources */,
 				0265B4B728E2141D00E6EAFD /* Strings.swift in Sources */,
 				97C99C362B9A08FE004EEDE2 /* CalendarSyncProgressView.swift in Sources */,
@@ -1256,6 +1343,52 @@
 			isa = PBXVariantGroup;
 			children = (
 				02B6B3B328E1C49400232911 /* en */,
+				D14C49FC9555CF603F519FB9 /* zh-HK */,
+				C30140D29AAB2D4A016A74A5 /* af-ZA */,
+				C89F43B7B7A53385306758AA /* zh-HK */,
+				800041C183CA13CB215503F5 /* af-ZA */,
+				1E4B4DDB95523F2C5F5567B6 /* zh-HK */,
+				6EFF4517BA5D5FA562EBD967 /* af-ZA */,
+				C90D480087EF6DCAB6B7BA13 /* zh-HK */,
+				205245A389E19ABCD9604A3D /* af-ZA */,
+				D503437090FC3CC760ECD22E /* he */,
+				63284605AB28414500A181F0 /* ar */,
+				6F594A5B92C7FB49E2DA6465 /* el */,
+				8FEA4051918F697464946749 /* ja */,
+				748E452EA8B334C4EC1C85E2 /* fa */,
+				CD41479AA66F2A98F81F47F1 /* sq */,
+				DD544800BFA191F0D40F8C7C /* it-IT */,
+				68454114853C827564EC7282 /* uk */,
+				B0E54812980D3F56BF836EE8 /* zh-HK */,
+				5ECB4AEDA2A84CDFDE1DA928 /* es_419 */,
+				90C647169B7A34EBEAC706A6 /* sw */,
+				EBAA4C19BF82F6B83069B968 /* da */,
+				472C44DC89CCBBB1051FAE6F /* kk */,
+				976B47CAAE4D40B6D37DF115 /* fr-CA */,
+				DF25417AAA2C0635EA9F1E23 /* tr-TR */,
+				138D4859A788BD32D3D6706F /* es-ES */,
+				5E2646D996CA3EDF4C6E0C4E /* sv */,
+				315A42C1A7BA02F923ADB46E /* te */,
+				60D3483FB9B24B5F3AED7BE2 /* ko */,
+				9E344E35933ED37D75D1A15D /* bo */,
+				3E234525BD88C9304521D897 /* af-ZA */,
+				6A51438EB6F4A1D242BC71EA /* hu */,
+				35674A9CAE7A9DCB1874BE5C /* pl */,
+				75824CD59699D325B8883EC4 /* pt-BR */,
+				A1EF4F889C4256018AF7A478 /* vi */,
+				299A4FD4982A581C1FD62515 /* lv */,
+				659749D9A032F7963CE446CD /* ru */,
+				DD474FFB928D40F5598DDDF1 /* zh-CN */,
+				F05B47B9894A4D441FC86F5F /* de-DE */,
+				FE5546C0B0A213E794954EB8 /* uz */,
+				F234455FA94C7EBEC0752FDD /* fr */,
+				2B8C415D9F76AB9E129E92A4 /* id */,
+				77754C5EAF5B668E1C8EF912 /* nl */,
+				BB7942BEAE9E9396EF995637 /* th */,
+				A1344823ACFDE867B8A110B0 /* az */,
+				22BE4A048BE8BC980769AB38 /* pt-PT */,
+				B9E9465ABAE0AC752E3A9E7C /* ro */,
+				7586421796D7DEFD419C5787 /* hi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

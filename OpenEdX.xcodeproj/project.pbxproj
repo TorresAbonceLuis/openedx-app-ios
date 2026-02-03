@@ -135,10 +135,40 @@
 		07D5DA3128D075AA00752FD9 /* OpenEdX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEdX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D5DA3428D075AA00752FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07D5DA3D28D075AB00752FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08FD4F539DA53DA70CE0D8C4 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0947476AB15C3FC067E3437E /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		12AA4F7992E5437028D08B7C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		149FF39D2B9F1AB50034B33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		173743A5B4910BE97AB2AE3E /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		19B04C5D825965824E593838 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
+		243D47C5BE9CEB07DDEBEB7F /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		262A48C3B5E6D9657923A131 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E884F45BBA8BCBF57895B3D /* es_419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_419; path = es_419.lproj/Localizable.strings; sourceTree = "<group>"; };
+		352B4E7A86BC636F88038CAD /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		368F4DD7A6D05C067E5A30EA /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/Localizable.strings; sourceTree = "<group>"; };
+		372F4F13957B4D865E845C7F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3B4D4B2C98063DA91DF32FB0 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3D27E034A83DDEBF18D53B04 /* Pods_App_OpenEdX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_OpenEdX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC34C8BA4D4E486AD51D9CC /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3EBD4FCB982613456AE7CF68 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4449C4D4F119C87B452DDFCD /* Pods-App-OpenEdX.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-OpenEdX.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-OpenEdX/Pods-App-OpenEdX.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		48684048A013AED6EB663B43 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4AB346C0B7D3559CFAA0F911 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5486465AB8A213BF6C0404F9 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		56CE4382A8C0DC36F123FBD1 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6BBE448DB9DCEECA1A14491E /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		703D4FC29065F26F70C24CF7 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		738A477F8EC93DC9B0B70E07 /* bo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bo; path = bo.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77864073BB70561D97B685F0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		786643669E36D4339BF45B3E /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7A7E46A19FA48D8DD97B4F80 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7FA44F83B7C89E78AB296538 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		84F74361A9294110FE684534 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8A45E2C9AF0CBE70A09FB37B /* Pods-App-OpenEdX.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-OpenEdX.debugstage.xcconfig"; path = "Target Support Files/Pods-App-OpenEdX/Pods-App-OpenEdX.debugstage.xcconfig"; sourceTree = "<group>"; };
+		8E814573B2B5D6B3CBEF1C13 /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Localizable.strings; sourceTree = "<group>"; };
+		96334801808E0C27137EA96F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F7C4007B39D2517BEC4C103 /* az */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = az; path = az.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A431406E980E37AFFEAEF8A3 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A500668A2B613ED10024680B /* PushNotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationsManager.swift; sourceTree = "<group>"; };
 		A500668C2B6143000024680B /* FCMProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCMProvider.swift; sourceTree = "<group>"; };
 		A50066922B614DCD0024680B /* FCMListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCMListener.swift; sourceTree = "<group>"; };
@@ -146,15 +176,33 @@
 		A59568942B61630500ED4F90 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
 		A59568962B61653700ED4F90 /* DeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLink.swift; sourceTree = "<group>"; };
 		A59568982B616D9400ED4F90 /* PushLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushLink.swift; sourceTree = "<group>"; };
+		A6E44B93958C81C70E9B841E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9B445F3AD502C243D5F81C0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA7468752B96201D00793145 /* DeepLinkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkRouter.swift; sourceTree = "<group>"; };
+		BBD24F94A21CCE6E1C26D31B /* sw */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sw; path = sw.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDE948A88CFA3274AB0F232F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4414EC68849A6B8890884D8 /* de-DE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de-DE"; path = "de-DE.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CBA2E7B42F3267EB008F38E8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/languages.json; sourceTree = "<group>"; };
+		CBA2E7B52F3267EB008F38E8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = "es.lproj/сountries.json"; sourceTree = "<group>"; };
+		CC9C4837B18A7B7770920A54 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CCE1E0F850D3E25C0D6C6702 /* Pods-App-OpenEdX.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-OpenEdX.debugdev.xcconfig"; path = "Target Support Files/Pods-App-OpenEdX/Pods-App-OpenEdX.debugdev.xcconfig"; sourceTree = "<group>"; };
 		CE1D5B7A2CE60E000019CA34 /* ContainerMainActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerMainActor.swift; sourceTree = "<group>"; };
 		CE3BD14D2CBEB0DA0026F4E3 /* PluginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginManager.swift; sourceTree = "<group>"; };
+		CE5E4BEAB1C7C37A947DF823 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CEB36E512D6A29CE00907A89 /* Downloads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Downloads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE5EDED2D6E0A290089F67C /* DownloadsPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsPersistence.swift; sourceTree = "<group>"; };
+		CF654C4EB4BBE9C0B6DC81E5 /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = "it-IT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D2664B9EB37600145FF709B4 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D650485B98E909443A873707 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D70D30110012B7D52D05E876 /* Pods-App-OpenEdX.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-OpenEdX.debugprod.xcconfig"; path = "Target Support Files/Pods-App-OpenEdX/Pods-App-OpenEdX.debugprod.xcconfig"; sourceTree = "<group>"; };
+		D774456AA5A31837A1DF1ED1 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D8214BF297D21E3332DB951B /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E0D6E6A22B1626B10089F9C9 /* Theme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Theme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ED45839D6996F17A91C3C3 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F0114F8193E2AFCACFE4D145 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F96D43039ACBCE535FE65075 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		FD0CE8D22B755B4003A113BB /* Pods-App-OpenEdX.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-OpenEdX.releasestage.xcconfig"; path = "Target Support Files/Pods-App-OpenEdX/Pods-App-OpenEdX.releasestage.xcconfig"; sourceTree = "<group>"; };
+		FD0F4F25BC0A0AA10405C58B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,6 +485,44 @@
 				en,
 				Base,
 				uk,
+				ar,
+				fa,
+				"zh-HK",
+				bo,
+				"af-ZA",
+				vi,
+				lv,
+				uz,
+				es,
+				he,
+				el,
+				ja,
+				sq,
+				"it-IT",
+				es_419,
+				sw,
+				da,
+				kk,
+				"fr-CA",
+				"tr-TR",
+				"es-ES",
+				sv,
+				te,
+				ko,
+				hu,
+				pl,
+				"pt-BR",
+				ru,
+				"zh-CN",
+				"de-DE",
+				fr,
+				id,
+				nl,
+				th,
+				az,
+				"pt-PT",
+				ro,
+				hi,
 			);
 			mainGroup = 07D5DA2828D075AA00752FD9;
 			packageReferences = (
@@ -600,6 +686,7 @@
 			children = (
 				02ED50D529A6554E008341CD /* uk */,
 				02ED50D729A65554008341CD /* Base */,
+				CBA2E7B52F3267EB008F38E8 /* es */,
 			);
 			name = "сountries.json";
 			sourceTree = "<group>";
@@ -609,6 +696,7 @@
 			children = (
 				02ED50D929A66007008341CD /* Base */,
 				02ED50DB29A6600B008341CD /* uk */,
+				CBA2E7B42F3267EB008F38E8 /* es */,
 			);
 			name = languages.json;
 			sourceTree = "<group>";
@@ -617,6 +705,52 @@
 			isa = PBXVariantGroup;
 			children = (
 				0770DE6528D0BCC7006D8A5D /* en */,
+				48684048A013AED6EB663B43 /* zh-HK */,
+				7A7E46A19FA48D8DD97B4F80 /* af-ZA */,
+				3B4D4B2C98063DA91DF32FB0 /* zh-HK */,
+				CC9C4837B18A7B7770920A54 /* af-ZA */,
+				56CE4382A8C0DC36F123FBD1 /* zh-HK */,
+				E2ED45839D6996F17A91C3C3 /* af-ZA */,
+				0947476AB15C3FC067E3437E /* zh-HK */,
+				173743A5B4910BE97AB2AE3E /* af-ZA */,
+				D774456AA5A31837A1DF1ED1 /* he */,
+				77864073BB70561D97B685F0 /* ar */,
+				08FD4F539DA53DA70CE0D8C4 /* el */,
+				84F74361A9294110FE684534 /* ja */,
+				262A48C3B5E6D9657923A131 /* fa */,
+				19B04C5D825965824E593838 /* sq */,
+				CF654C4EB4BBE9C0B6DC81E5 /* it-IT */,
+				703D4FC29065F26F70C24CF7 /* uk */,
+				CE5E4BEAB1C7C37A947DF823 /* zh-HK */,
+				2E884F45BBA8BCBF57895B3D /* es_419 */,
+				BBD24F94A21CCE6E1C26D31B /* sw */,
+				A431406E980E37AFFEAEF8A3 /* da */,
+				243D47C5BE9CEB07DDEBEB7F /* kk */,
+				7FA44F83B7C89E78AB296538 /* fr-CA */,
+				786643669E36D4339BF45B3E /* tr-TR */,
+				D650485B98E909443A873707 /* es-ES */,
+				BDE948A88CFA3274AB0F232F /* sv */,
+				8E814573B2B5D6B3CBEF1C13 /* te */,
+				A6E44B93958C81C70E9B841E /* ko */,
+				738A477F8EC93DC9B0B70E07 /* bo */,
+				3DC34C8BA4D4E486AD51D9CC /* af-ZA */,
+				D2664B9EB37600145FF709B4 /* hu */,
+				96334801808E0C27137EA96F /* pl */,
+				372F4F13957B4D865E845C7F /* pt-BR */,
+				D8214BF297D21E3332DB951B /* vi */,
+				352B4E7A86BC636F88038CAD /* lv */,
+				3EBD4FCB982613456AE7CF68 /* ru */,
+				F96D43039ACBCE535FE65075 /* zh-CN */,
+				C4414EC68849A6B8890884D8 /* de-DE */,
+				368F4DD7A6D05C067E5A30EA /* uz */,
+				12AA4F7992E5437028D08B7C /* fr */,
+				F0114F8193E2AFCACFE4D145 /* id */,
+				B9B445F3AD502C243D5F81C0 /* nl */,
+				4AB346C0B7D3559CFAA0F911 /* th */,
+				9F7C4007B39D2517BEC4C103 /* az */,
+				5486465AB8A213BF6C0404F9 /* pt-PT */,
+				6BBE448DB9DCEECA1A14491E /* ro */,
+				FD0F4F25BC0A0AA10405C58B /* hi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -701,12 +835,14 @@
 				CODE_SIGN_ENTITLEMENTS = OpenEdX/OpenEdX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MQQMAV9YHG;
 				FULLSTORY_ENABLED = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenEdX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to your photo library so you can save photos in your gallery.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -719,7 +855,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.openedx.app.stage;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aprendeulmo.app.stage;
 				PRODUCT_NAME = "$(TARGET_NAME) Stage";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -793,12 +929,14 @@
 				CODE_SIGN_ENTITLEMENTS = OpenEdX/OpenEdX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MQQMAV9YHG;
 				FULLSTORY_ENABLED = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenEdX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to your photo library so you can save photos in your gallery.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -811,7 +949,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.openedx.app.stage;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aprendeulmo.app.stage;
 				PRODUCT_NAME = "$(TARGET_NAME) Stage";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -891,12 +1029,14 @@
 				CODE_SIGN_ENTITLEMENTS = OpenEdX/OpenEdX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MQQMAV9YHG;
 				FULLSTORY_ENABLED = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenEdX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to your photo library so you can save photos in your gallery.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -909,7 +1049,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.openedx.app.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aprendeulmo.app.dev;
 				PRODUCT_NAME = "$(TARGET_NAME) Dev";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -983,12 +1123,14 @@
 				CODE_SIGN_ENTITLEMENTS = OpenEdX/OpenEdX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MQQMAV9YHG;
 				FULLSTORY_ENABLED = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenEdX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to your photo library so you can save photos in your gallery.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1001,7 +1143,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.openedx.app.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aprendeulmo.app.dev;
 				PRODUCT_NAME = "$(TARGET_NAME) Dev";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1135,12 +1277,14 @@
 				CODE_SIGN_ENTITLEMENTS = OpenEdX/OpenEdX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MQQMAV9YHG;
 				FULLSTORY_ENABLED = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenEdX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to your photo library so you can save photos in your gallery.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1153,7 +1297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.openedx.app;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aprendeulmo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1173,12 +1317,14 @@
 				CODE_SIGN_ENTITLEMENTS = OpenEdX/OpenEdX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MQQMAV9YHG;
 				FULLSTORY_ENABLED = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenEdX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "We would like to utilize your calendar list to subscribe you to your personalized calendar for this course.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to your photo library so you can save photos in your gallery.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1191,7 +1337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.openedx.app;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aprendeulmo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

@@ -90,38 +90,84 @@
 		0770DE6728D0BF03006D8A5D /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		0770DE6C28D0C035006D8A5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0770DE7028D0C0E7006D8A5D /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		095E423DB78D5E4C30BD1201 /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0E586C84FB9FFDD8AAE29BB3 /* Pods-App-Authorization-AuthorizationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization-AuthorizationTests.debug.xcconfig"; path = "Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		120847BCB511271A41692EAE /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1B1F4AFA8F6349564762D216 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1BD947019AAF741161B5D6C5 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1CB6628EDEAAC2431CD50D9A /* Pods-App-Authorization-AuthorizationTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization-AuthorizationTests.debugprod.xcconfig"; path = "Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests.debugprod.xcconfig"; sourceTree = "<group>"; };
 		1CD50AA5CB635FD7200C4DF9 /* Pods-App-Authorization.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization.debugstage.xcconfig"; path = "Target Support Files/Pods-App-Authorization/Pods-App-Authorization.debugstage.xcconfig"; sourceTree = "<group>"; };
+		2DB148B28FF4733D30B3DF4A /* es_419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_419; path = es_419.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2DF843FDAEB1D26A8B287E14 /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E66422E8174EA2CF1B9FA95 /* de-DE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de-DE"; path = "de-DE.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		2F1206D6806C156203F01524 /* Pods-App-Authorization-AuthorizationTests.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization-AuthorizationTests.debugstage.xcconfig"; path = "Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests.debugstage.xcconfig"; sourceTree = "<group>"; };
 		37CBD3ECE7D9B20E0BC61344 /* Pods-App-Authorization-AuthorizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization-AuthorizationTests.release.xcconfig"; path = "Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A084865B0B3533A54C7E06A /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3E0D103D8210828583660AF6 /* Pods-App-Authorization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization.debug.xcconfig"; path = "Target Support Files/Pods-App-Authorization/Pods-App-Authorization.debug.xcconfig"; sourceTree = "<group>"; };
+		4394474FB6F49C1C0913B0F6 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		45214524B99BC55BDA7AB51C /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47B646838DA172D4705CBDA2 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		47BCFB7C19382EECF15131B6 /* Pods_App_Authorization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Authorization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49154FCFA99A19E7280D5B95 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		49A74E7AC5109DFA06BDAF3A /* Pods-App-Authorization-AuthorizationTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization-AuthorizationTests.releasedev.xcconfig"; path = "Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		4DF9416D805EDC5C6D3FA633 /* az */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = az; path = az.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4F074507A0AD3370296FDBD2 /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4FAE9B7FD61FF88C9C4FE1E8 /* Pods_App_Authorization_AuthorizationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Authorization_AuthorizationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54204D2AA4392A6C7B26D947 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		68795EBDC3000C1B12F9432C /* Pods-App-Authorization.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization.debugprod.xcconfig"; path = "Target Support Files/Pods-App-Authorization/Pods-App-Authorization.debugprod.xcconfig"; sourceTree = "<group>"; };
+		6B1C4DF6BB7279C503CAA541 /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6CB1424D843945ED625538AB /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
+		70E54E8D89FFC751D4B374D1 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		75DF42D89C79A1250F096D3D /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		77D14761BC727AB68DF058E1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78F042FCB49CB7437CB864B7 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7A84BB166492D4E46FBCF01C /* Pods-App-Authorization-AuthorizationTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization-AuthorizationTests.debugdev.xcconfig"; path = "Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		85F146219B8AEDC69AB783E2 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8DC04052B103EEAD16142143 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8ED743B1A3889A6D041F00B8 /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8FDA48B6A3DA16572F5DBF6F /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		90DFBB75EF40580E180D71C8 /* Pods-App-Authorization.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization.debugdev.xcconfig"; path = "Target Support Files/Pods-App-Authorization/Pods-App-Authorization.debugdev.xcconfig"; sourceTree = "<group>"; };
+		9286402A89D9E29F6AEBDE67 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		96C85172770225EB81A6D2DA /* Pods-App-Authorization.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization.releasedev.xcconfig"; path = "Target Support Files/Pods-App-Authorization/Pods-App-Authorization.releasedev.xcconfig"; sourceTree = "<group>"; };
 		99C1654A2C0C4F0600DC384D /* ContainerWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWebView.swift; sourceTree = "<group>"; };
 		99C1654C2C0C4F2F00DC384D /* SSOHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSOHelper.swift; sourceTree = "<group>"; };
 		99C1654E2C0C4F5900DC384D /* SSOWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSOWebView.swift; sourceTree = "<group>"; };
 		99C165502C0C4F7B00DC384D /* SSOWebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSOWebViewModel.swift; sourceTree = "<group>"; };
 		9BF6A1004A955E24527FCF0F /* Pods-App-Authorization-AuthorizationTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization-AuthorizationTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		9EA5414A8DAD7F0D698B2036 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1E7456E9BF8311CB66A12E6 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A22148FAAA5EECFC64E0F986 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A8394896B01E6F0F81C3F330 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A99D45203C981893C104053A /* Pods-App-Authorization-AuthorizationTests.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization-AuthorizationTests.releasestage.xcconfig"; path = "Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests.releasestage.xcconfig"; sourceTree = "<group>"; };
+		B6334DFE9AB46CF97341A638 /* sw */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sw; path = sw.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA8B3A312AD5487300D25EF5 /* SocialAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAuthView.swift; sourceTree = "<group>"; };
 		BADB3F542AD6DFC3004D5CFA /* SocialAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAuthViewModel.swift; sourceTree = "<group>"; };
+		C57A42798C108F76C0AE11A5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C68A4D7D9D90AE441EACF1ED /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9B94DBC982DA299F7456105 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB0C4F7BA5C3D9346901AA9C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CEB259FA2CC13A36007FC792 /* SocialAuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAuthError.swift; sourceTree = "<group>"; };
 		CEB259FC2CC13A36007FC792 /* AppleAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAuthProvider.swift; sourceTree = "<group>"; };
 		CEB259FD2CC13A36007FC792 /* GoogleAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthProvider.swift; sourceTree = "<group>"; };
 		CEB259FE2CC13A36007FC792 /* FacebookAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAuthProvider.swift; sourceTree = "<group>"; };
 		CEB259FF2CC13A36007FC792 /* MicrosoftAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrosoftAuthProvider.swift; sourceTree = "<group>"; };
 		CEB25A002CC13A36007FC792 /* SocialAuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAuthResponse.swift; sourceTree = "<group>"; };
+		CF8E4529895704CA79A72C74 /* bo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bo; path = bo.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0A14D52B68C8BD53597D088 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA39412FA40791E29AEFABCB /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E03261632AE64676002CA7EB /* StartupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewModel.swift; sourceTree = "<group>"; };
 		E03261652AE64AF4002CA7EB /* StartupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupView.swift; sourceTree = "<group>"; };
+		E080437EA2D5BA6419CC3536 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E1974A03B23495E5190EA186 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E3BE47CE8C7BC4BB645A7F6B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E5A84DE6916548CF3A32CD1F /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E78971D8E6ED2116BBF9FD66 /* Pods-App-Authorization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization.release.xcconfig"; path = "Target Support Files/Pods-App-Authorization/Pods-App-Authorization.release.xcconfig"; sourceTree = "<group>"; };
+		EA7F4F11B2311C4D622AC618 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F19543A38998806B3E900589 /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = "it-IT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F25F40DA87B4B819DBA56711 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F52826C68AEA1CF4769389EA /* Pods-App-Authorization.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization.releasestage.xcconfig"; path = "Target Support Files/Pods-App-Authorization/Pods-App-Authorization.releasestage.xcconfig"; sourceTree = "<group>"; };
 		F5802BBA113276950ABCD9B3 /* Pods-App-Authorization.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Authorization.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-Authorization/Pods-App-Authorization.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		F7094CA382E1FF6B0FDC22F2 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,6 +487,43 @@
 				en,
 				Base,
 				uk,
+				ar,
+				fa,
+				"zh-HK",
+				bo,
+				"af-ZA",
+				vi,
+				lv,
+				uz,
+				he,
+				el,
+				ja,
+				sq,
+				"it-IT",
+				es_419,
+				sw,
+				da,
+				kk,
+				"fr-CA",
+				"tr-TR",
+				"es-ES",
+				sv,
+				te,
+				ko,
+				hu,
+				pl,
+				"pt-BR",
+				ru,
+				"zh-CN",
+				"de-DE",
+				fr,
+				id,
+				nl,
+				th,
+				az,
+				"pt-PT",
+				ro,
+				hi,
 			);
 			mainGroup = 0770DE3128D0A318006D8A5D;
 			packageReferences = (
@@ -622,6 +705,52 @@
 			isa = PBXVariantGroup;
 			children = (
 				0770DE6C28D0C035006D8A5D /* en */,
+				E5A84DE6916548CF3A32CD1F /* zh-HK */,
+				49154FCFA99A19E7280D5B95 /* af-ZA */,
+				F7094CA382E1FF6B0FDC22F2 /* zh-HK */,
+				70E54E8D89FFC751D4B374D1 /* af-ZA */,
+				4394474FB6F49C1C0913B0F6 /* zh-HK */,
+				1B1F4AFA8F6349564762D216 /* af-ZA */,
+				47B646838DA172D4705CBDA2 /* zh-HK */,
+				85F146219B8AEDC69AB783E2 /* af-ZA */,
+				A8394896B01E6F0F81C3F330 /* he */,
+				C57A42798C108F76C0AE11A5 /* ar */,
+				E1974A03B23495E5190EA186 /* el */,
+				E3BE47CE8C7BC4BB645A7F6B /* ja */,
+				A1E7456E9BF8311CB66A12E6 /* fa */,
+				6CB1424D843945ED625538AB /* sq */,
+				F19543A38998806B3E900589 /* it-IT */,
+				E080437EA2D5BA6419CC3536 /* uk */,
+				75DF42D89C79A1250F096D3D /* zh-HK */,
+				2DB148B28FF4733D30B3DF4A /* es_419 */,
+				B6334DFE9AB46CF97341A638 /* sw */,
+				78F042FCB49CB7437CB864B7 /* da */,
+				095E423DB78D5E4C30BD1201 /* kk */,
+				3A084865B0B3533A54C7E06A /* fr-CA */,
+				8ED743B1A3889A6D041F00B8 /* tr-TR */,
+				EA7F4F11B2311C4D622AC618 /* es-ES */,
+				C9B94DBC982DA299F7456105 /* sv */,
+				2DF843FDAEB1D26A8B287E14 /* te */,
+				1BD947019AAF741161B5D6C5 /* ko */,
+				CF8E4529895704CA79A72C74 /* bo */,
+				DA39412FA40791E29AEFABCB /* af-ZA */,
+				45214524B99BC55BDA7AB51C /* hu */,
+				8DC04052B103EEAD16142143 /* pl */,
+				A22148FAAA5EECFC64E0F986 /* pt-BR */,
+				9286402A89D9E29F6AEBDE67 /* vi */,
+				4F074507A0AD3370296FDBD2 /* lv */,
+				CB0C4F7BA5C3D9346901AA9C /* ru */,
+				54204D2AA4392A6C7B26D947 /* zh-CN */,
+				2E66422E8174EA2CF1B9FA95 /* de-DE */,
+				6B1C4DF6BB7279C503CAA541 /* uz */,
+				77D14761BC727AB68DF058E1 /* fr */,
+				8FDA48B6A3DA16572F5DBF6F /* id */,
+				C68A4D7D9D90AE441EACF1ED /* nl */,
+				D0A14D52B68C8BD53597D088 /* th */,
+				4DF9416D805EDC5C6D3FA633 /* az */,
+				120847BCB511271A41692EAE /* pt-PT */,
+				F25F40DA87B4B819DBA56711 /* ro */,
+				9EA5414A8DAD7F0D698B2036 /* hi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

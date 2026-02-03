@@ -139,28 +139,74 @@
 		02F81DE02BF4F009002D3604 /* CoursesToSyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesToSyncView.swift; sourceTree = "<group>"; };
 		02F81DE22BF502B9002D3604 /* SyncSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncSelector.swift; sourceTree = "<group>"; };
 		02FE9A7F2BC707D400B3C206 /* SettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewModelTests.swift; path = ProfileTests/Presentation/Settings/SettingsViewModelTests.swift; sourceTree = SOURCE_ROOT; };
+		075944C5AF314085B243BABE /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		07914FAA89692704F553FC00 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0796C8C829B7905300444B05 /* ProfileBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBottomSheet.swift; sourceTree = "<group>"; };
 		0E5054C44435557666B6D885 /* Pods-App-Profile.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile.debugstage.xcconfig"; path = "Target Support Files/Pods-App-Profile/Pods-App-Profile.debugstage.xcconfig"; sourceTree = "<group>"; };
+		16304F35AE4F52D60288147F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1E3D40B78DE3F57DCE4D6DFC /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = "it-IT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		24C34F679419992CD733AB6C /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		268F4579A57ADEEDE84F8DA6 /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		276245B7AC01078A543B4ED1 /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2AC343EB900D6864DCFF39A0 /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3674C51E1BE41D834B5C4E99 /* Pods-App-Profile.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile.debugdev.xcconfig"; path = "Target Support Files/Pods-App-Profile/Pods-App-Profile.debugdev.xcconfig"; sourceTree = "<group>"; };
+		395945CA947C7870B9DB1051 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3B8D434F86786C4A9FFC4854 /* sw */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sw; path = sw.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4FBB49A8AFD476D78DD5B102 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		51C44704A1EEC92E0BA605F2 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		528640FD93E6A4BDBBCBF6ED /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		52AFEEDE612F39072A418B1B /* Pods-App-Profile-ProfileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile-ProfileTests.debug.xcconfig"; path = "Target Support Files/Pods-App-Profile-ProfileTests/Pods-App-Profile-ProfileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5788D9F297637D0D4A327E3B /* Pods-App-Profile-ProfileTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile-ProfileTests.debugprod.xcconfig"; path = "Target Support Files/Pods-App-Profile-ProfileTests/Pods-App-Profile-ProfileTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		5BAE47ACAF9C06D185090CF9 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5CCF49F09043CCDCD77864CC /* es_419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_419; path = es_419.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5D3F4895B7BFC9176BB857FA /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		60F34AFF9371D2F76257D2AC /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6173448A81ACECEA644CFF59 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		671D4DC7B5FF4ADEC541A2BE /* az */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = az; path = az.lproj/Localizable.strings; sourceTree = "<group>"; };
+		683444CB9711B59CB80BB802 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6B164562A54C1F4D8AEE34B0 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6CBE4EEBB9C70FFA49C24DC2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71A447CBB6031536B36D0DC2 /* bo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bo; path = bo.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7353334255A8C1EC85A413DE /* Pods-App-Profile.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-Profile/Pods-App-Profile.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		7866F14F89F9B83062105100 /* Pods-App-Profile-ProfileTests.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile-ProfileTests.releasestage.xcconfig"; path = "Target Support Files/Pods-App-Profile-ProfileTests/Pods-App-Profile-ProfileTests.releasestage.xcconfig"; sourceTree = "<group>"; };
+		78C14B1D9EA5471404918B02 /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7B654A01AED37C122A918680 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7B80961BB9886B28B90B9ECB /* Pods-App-Profile.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile.releasestage.xcconfig"; path = "Target Support Files/Pods-App-Profile/Pods-App-Profile.releasestage.xcconfig"; sourceTree = "<group>"; };
+		7F594265AED2819F96DD5A1D /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7F6936DF5D5491AE5B6403BC /* Pods-App-Profile-ProfileTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile-ProfileTests.debugdev.xcconfig"; path = "Target Support Files/Pods-App-Profile-ProfileTests/Pods-App-Profile-ProfileTests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		83614063AFD0F55AA12813A5 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		8C5B79329D30C10E32838360 /* Pods-App-Profile-ProfileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile-ProfileTests.release.xcconfig"; path = "Target Support Files/Pods-App-Profile-ProfileTests/Pods-App-Profile-ProfileTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FCC4E69AFC70E5F5765448F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		926B43C48F2B3C54C4015CDB /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		99E3D23305C745FE0FF57A62 /* Pods-App-Profile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile.release.xcconfig"; path = "Target Support Files/Pods-App-Profile/Pods-App-Profile.release.xcconfig"; sourceTree = "<group>"; };
 		9AC2F1A5AE5AC7F0CFCB9FE3 /* Pods-App-Profile-ProfileTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile-ProfileTests.releasedev.xcconfig"; path = "Target Support Files/Pods-App-Profile-ProfileTests/Pods-App-Profile-ProfileTests.releasedev.xcconfig"; sourceTree = "<group>"; };
 		9D125F82E0EAC4B6C0CE280F /* Pods-App-Profile-ProfileTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile-ProfileTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-Profile-ProfileTests/Pods-App-Profile-ProfileTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		A3654232AF324802F5E98322 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A44F43918AEAC3447EC5B140 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A917404CB87C47CB11F2B8F0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A9F98CD65D1F657EB8F9EA59 /* Pods-App-Profile.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile.releasedev.xcconfig"; path = "Target Support Files/Pods-App-Profile/Pods-App-Profile.releasedev.xcconfig"; sourceTree = "<group>"; };
+		AA8E498C84EECE147EB23671 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AF4A4DD1900B4D65A840BBE7 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B3F05DC21379BD4FE1AFCCF1 /* Pods-App-Profile.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile.debugprod.xcconfig"; path = "Target Support Files/Pods-App-Profile/Pods-App-Profile.debugprod.xcconfig"; sourceTree = "<group>"; };
+		B42546BEA80703944484FFB1 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BAD9CA3E2B29BF5C00DE790A /* ProfileSupportInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSupportInfoView.swift; sourceTree = "<group>"; };
 		BEA369C38362C1A91A012F70 /* Pods_App_Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD240CBB963DF55D5087561 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C4274352ACF4F023221F8AC9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C85ADF87135E03275A980E07 /* Pods_App_Profile_ProfileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Profile_ProfileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1735032CD23D7A00F9606A /* DatesAndCalendarViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesAndCalendarViewModelTests.swift; sourceTree = "<group>"; };
 		CE961F022CD163FD00799B9F /* CalendarManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManagerTests.swift; sourceTree = "<group>"; };
+		CFF94BFF911695EF91B5E69E /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D70744858B4BBE98A2F3087E /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA214766A153CE23E1DEF8F0 /* de-DE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de-DE"; path = "de-DE.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E3BF4ED0A59DB8A479D1D25B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF4D46ED8B14DCFCBB8E841E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F52EFE7DC07BE68B9A302DAF /* Pods-App-Profile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile.debug.xcconfig"; path = "Target Support Files/Pods-App-Profile/Pods-App-Profile.debug.xcconfig"; sourceTree = "<group>"; };
+		F5DE4A7E909F984F16EB2840 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F81D4489B67F607D56D4F378 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		FB33709D5DBACDEA33BD016F /* Pods-App-Profile-ProfileTests.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Profile-ProfileTests.debugstage.xcconfig"; path = "Target Support Files/Pods-App-Profile-ProfileTests/Pods-App-Profile-ProfileTests.debugstage.xcconfig"; sourceTree = "<group>"; };
+		FD3041CBAE7AC7D92E5ABD68 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD784C67A1B61F3A4FC2F82B /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -565,6 +611,37 @@
 				"es-419",
 				tr,
 				uk,
+				fa,
+				"zh-HK",
+				bo,
+				"af-ZA",
+				lv,
+				uz,
+				el,
+				sq,
+				"it-IT",
+				es_419,
+				sw,
+				da,
+				kk,
+				"fr-CA",
+				"tr-TR",
+				"es-ES",
+				sv,
+				te,
+				ko,
+				hu,
+				pl,
+				ru,
+				"zh-CN",
+				"de-DE",
+				id,
+				nl,
+				th,
+				az,
+				"pt-PT",
+				ro,
+				hi,
 			);
 			mainGroup = 020F834028DB4CCD0062FA70;
 			packageReferences = (
@@ -765,6 +842,52 @@
 			isa = PBXVariantGroup;
 			children = (
 				021D926028DDADE600ACC565 /* en */,
+				FD784C67A1B61F3A4FC2F82B /* zh-HK */,
+				60F34AFF9371D2F76257D2AC /* af-ZA */,
+				BFD240CBB963DF55D5087561 /* zh-HK */,
+				6B164562A54C1F4D8AEE34B0 /* af-ZA */,
+				6173448A81ACECEA644CFF59 /* zh-HK */,
+				83614063AFD0F55AA12813A5 /* af-ZA */,
+				51C44704A1EEC92E0BA605F2 /* zh-HK */,
+				AF4A4DD1900B4D65A840BBE7 /* af-ZA */,
+				8FCC4E69AFC70E5F5765448F /* he */,
+				E3BF4ED0A59DB8A479D1D25B /* ar */,
+				683444CB9711B59CB80BB802 /* el */,
+				395945CA947C7870B9DB1051 /* ja */,
+				24C34F679419992CD733AB6C /* fa */,
+				AA8E498C84EECE147EB23671 /* sq */,
+				1E3D40B78DE3F57DCE4D6DFC /* it-IT */,
+				B42546BEA80703944484FFB1 /* uk */,
+				F5DE4A7E909F984F16EB2840 /* zh-HK */,
+				5CCF49F09043CCDCD77864CC /* es_419 */,
+				3B8D434F86786C4A9FFC4854 /* sw */,
+				926B43C48F2B3C54C4015CDB /* da */,
+				2AC343EB900D6864DCFF39A0 /* kk */,
+				5BAE47ACAF9C06D185090CF9 /* fr-CA */,
+				276245B7AC01078A543B4ED1 /* tr-TR */,
+				5D3F4895B7BFC9176BB857FA /* es-ES */,
+				6CBE4EEBB9C70FFA49C24DC2 /* sv */,
+				78C14B1D9EA5471404918B02 /* te */,
+				075944C5AF314085B243BABE /* ko */,
+				71A447CBB6031536B36D0DC2 /* bo */,
+				F81D4489B67F607D56D4F378 /* af-ZA */,
+				4FBB49A8AFD476D78DD5B102 /* hu */,
+				A917404CB87C47CB11F2B8F0 /* pl */,
+				7B654A01AED37C122A918680 /* pt-BR */,
+				C4274352ACF4F023221F8AC9 /* vi */,
+				268F4579A57ADEEDE84F8DA6 /* lv */,
+				16304F35AE4F52D60288147F /* ru */,
+				CFF94BFF911695EF91B5E69E /* zh-CN */,
+				DA214766A153CE23E1DEF8F0 /* de-DE */,
+				7F594265AED2819F96DD5A1D /* uz */,
+				A3654232AF324802F5E98322 /* fr */,
+				FD3041CBAE7AC7D92E5ABD68 /* id */,
+				528640FD93E6A4BDBBCBF6ED /* nl */,
+				EF4D46ED8B14DCFCBB8E841E /* th */,
+				671D4DC7B5FF4ADEC541A2BE /* az */,
+				A44F43918AEAC3447EC5B140 /* pt-PT */,
+				D70744858B4BBE98A2F3087E /* ro */,
+				07914FAA89692704F553FC00 /* hi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

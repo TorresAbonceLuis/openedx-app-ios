@@ -209,6 +209,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		012747DE9D47CFFB76A838E2 /* az */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = az; path = az.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01664F43B3EFB22D75E2F90B /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
 		020306CB2932C0C4000949EA /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		02066B472906F73400F4307E /* PickerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerMenu.swift; sourceTree = "<group>"; };
 		020C31C8290AC3F700D6DEA2 /* PickerFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerFields.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 		02F6EF3A28D9B8EC00835477 /* CourseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellView.swift; sourceTree = "<group>"; };
 		02F6EF4928D9F0A700835477 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		043DD0B526F919DFA1C5E600 /* Pods-App-Core-CoreTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core-CoreTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		06034BA38B0F49AE975AAEF6 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0604C9A92B22FACF00AD5DBF /* UIComponentsConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIComponentsConfig.swift; sourceTree = "<group>"; };
 		0649878A2B4D69FE0071642A /* DragAndDropCssInjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragAndDropCssInjection.swift; sourceTree = "<group>"; };
 		0649878B2B4D69FE0071642A /* WebviewInjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewInjection.swift; sourceTree = "<group>"; };
@@ -332,28 +335,60 @@
 		0770DE5E28D0B22C006D8A5D /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		0770DE6028D0B2CB006D8A5D /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		07E0939E2B308D2800F1E4B2 /* Data_Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Certificate.swift; sourceTree = "<group>"; };
+		0963484ABED553F894AB6330 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0CA4A65A3AECED83CC425A00 /* Pods-CoreTests.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTests.debugstage.xcconfig"; path = "Target Support Files/Pods-CoreTests/Pods-CoreTests.debugstage.xcconfig"; sourceTree = "<group>"; };
+		0CD1476FA57121BB45489BC0 /* bo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bo; path = bo.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0E13E9173C9C4CFC19F8B6F2 /* Pods-App-Core.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core.debugstage.xcconfig"; path = "Target Support Files/Pods-App-Core/Pods-App-Core.debugstage.xcconfig"; sourceTree = "<group>"; };
+		10774CEA9A82E2F8C3910390 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		124143FE811E2C25790BCBC5 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		141F1D2F2B7328D4009E81EB /* WebviewCookiesUpdateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewCookiesUpdateProtocol.swift; sourceTree = "<group>"; };
+		146B44248EC6E86735B79DC6 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		14769D3B2B9822EE00AB36D4 /* CoreAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnalytics.swift; sourceTree = "<group>"; };
 		1A154A95AF4EE85A4A1C083B /* Pods-App-Core.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core.releasedev.xcconfig"; path = "Target Support Files/Pods-App-Core/Pods-App-Core.releasedev.xcconfig"; sourceTree = "<group>"; };
+		2017456595CA8F05B63FBA35 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		27F041B4BB944DA1F5C5BB8E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2B7E6FE7843FC4CF2BFA712D /* Pods-App-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core.debug.xcconfig"; path = "Target Support Files/Pods-App-Core/Pods-App-Core.debug.xcconfig"; sourceTree = "<group>"; };
+		2C9940C5B4CA1B3F662AAC21 /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2FA843E1A1E691E2E832003E /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		33FA09A20AAE2B2A0BA89190 /* Pods_App_Core_CoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Core_CoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		349B90CD6579F7B8D257E515 /* Pods_App_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36364816A84852FC332189A9 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3A1044FDB8C1825E77CE8F28 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3B74C6685E416657F3C5F5A8 /* Pods-App-Core.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core.releaseprod.xcconfig"; path = "Target Support Files/Pods-App-Core/Pods-App-Core.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		3C63D5D2247C793C259341B8 /* Pods-App-Core-CoreTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core-CoreTests.releasedev.xcconfig"; path = "Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		429A44AF8D508BE7BF06C40D /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Localizable.strings; sourceTree = "<group>"; };
+		44874C9EB5D94B5B1B4C7F5F /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4F194789940E7F7CDF1B6F2E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5871436BB7F955E246CDE6E3 /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5CEFA8766C44C519B86C681D /* Pods-App-Core-CoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core-CoreTests.debug.xcconfig"; path = "Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E244366AE36608F386F5B51 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		60153262DBC2F9E660D7E11B /* Pods-App-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core.release.xcconfig"; path = "Target Support Files/Pods-App-Core/Pods-App-Core.release.xcconfig"; sourceTree = "<group>"; };
+		63A548799400035FF0219003 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		658145C8B25EAB96E788D427 /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		72A348E4A01984A5D0B185F3 /* es_419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_419; path = es_419.lproj/Localizable.strings; sourceTree = "<group>"; };
+		736A4EB4B66517C5F517CA48 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74274DB78917C908462C35BA /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79934F5BB24E341853F768DC /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		827043FA874C9DC792EF828D /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8A0E4FE89102E6A175B9845E /* sw */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sw; path = sw.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8F3B171E9FA5E6F40B4890A8 /* Pods-App-Core-CoreTests.debugstage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core-CoreTests.debugstage.xcconfig"; path = "Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests.debugstage.xcconfig"; sourceTree = "<group>"; };
 		90D63D7E70B8F5027A211EA3 /* Pods-CoreTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTests.debugprod.xcconfig"; path = "Target Support Files/Pods-CoreTests/Pods-CoreTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		935C4D0F97DBBBC280E67B63 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		94B14477965C5CD7EDFFADB7 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		951751177FD4703992DC1491 /* Pods-CoreTests.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTests.releasestage.xcconfig"; path = "Target Support Files/Pods-CoreTests/Pods-CoreTests.releasestage.xcconfig"; sourceTree = "<group>"; };
 		9784D47D2BF7762800AFEFFF /* FullScreenErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenErrorView.swift; sourceTree = "<group>"; };
+		9C8D451896BBE775EAAA80D4 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9D5B06CAA99EA5CD49CBE2BB /* Pods-App-Core.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core.debugdev.xcconfig"; path = "Target Support Files/Pods-App-Core/Pods-App-Core.debugdev.xcconfig"; sourceTree = "<group>"; };
 		9E0B33614CBD791307FFDEAE /* Pods-App-Core-CoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core-CoreTests.release.xcconfig"; path = "Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FBC4EE1963D7D1239A57ECF /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A252496BA01FCC72E0787CA9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A47A4992840688C1D8D2D9E0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4FF4C35BB76C8E246A1B6B0 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A53A32342B233DEC005FE38A /* ThemeConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeConfig.swift; sourceTree = "<group>"; };
 		A595689A2B6173DF00ED4F90 /* BranchConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchConfig.swift; sourceTree = "<group>"; };
 		A5D4B3DD2CDD0A9700688951 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
 		A5F4E7B42B61544A00ACD166 /* BrazeConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrazeConfig.swift; sourceTree = "<group>"; };
+		AF334DFF806C26DD6A2863C4 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2556B4A2D4F84F402A7A7D9 /* Pods-CoreTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-CoreTests/Pods-CoreTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		BA4AFB412B5A7A0900A21367 /* VideoDownloadQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDownloadQualityView.swift; sourceTree = "<group>"; };
 		BA4AFB432B6A5AF100A21367 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
@@ -368,8 +403,11 @@
 		BAFB99832B0E282E007D09F9 /* MicrosoftConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrosoftConfig.swift; sourceTree = "<group>"; };
 		BAFB998F2B14B377007D09F9 /* GoogleConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleConfig.swift; sourceTree = "<group>"; };
 		BAFB99912B14E23D007D09F9 /* AppleSignInConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInConfig.swift; sourceTree = "<group>"; };
+		BF0840E88D719C6EC260E989 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C0B044C7B7135FCE7DC6A107 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C28D4872BAB1276B9AD24A33 /* Pods-CoreTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTests.debugdev.xcconfig"; path = "Target Support Files/Pods-CoreTests/Pods-CoreTests.debugdev.xcconfig"; sourceTree = "<group>"; };
 		C7E5BCE79CE297B20777B27A /* Pods-App-Core.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core.debugprod.xcconfig"; path = "Target Support Files/Pods-App-Core/Pods-App-Core.debugprod.xcconfig"; sourceTree = "<group>"; };
+		CB0344DDA094381765F46562 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CE09B2B52CE796AE0090DB53 /* InvalidCoreDataContextError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidCoreDataContextError.swift; sourceTree = "<group>"; };
 		CE1D5B7C2CE65D360019CA34 /* Protected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protected.swift; sourceTree = "<group>"; };
 		CE38BBD62D9D8294002CD276 /* ExperimentalFeaturesConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentalFeaturesConfig.swift; sourceTree = "<group>"; };
@@ -384,19 +422,27 @@
 		CED42FFB2D099F0400C7AD89 /* DownloadManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerMock.swift; sourceTree = "<group>"; };
 		CEF4AA1D2DBA41C4006C4F0A /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		CFC84951299F8B890055E497 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
+		D65A47A1AE6FFAEBE5830F79 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D6BD4CDDB36827D75DA09294 /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = "it-IT.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DBF6F2402B014ADA0098414B /* FirebaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfig.swift; sourceTree = "<group>"; };
 		DBF6F2452B01DAFE0098414B /* AgreementConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementConfig.swift; sourceTree = "<group>"; };
 		DBF6F2492B0380E00098414B /* FeaturesConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesConfig.swift; sourceTree = "<group>"; };
 		DD27D6BF5EB15C6C8B66969A /* Pods-App-Core-CoreTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core-CoreTests.debugdev.xcconfig"; path = "Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests.debugdev.xcconfig"; sourceTree = "<group>"; };
 		E055A5382B18DC95008D9E5E /* Theme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Theme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09179FC2B0F204D002AB695 /* ConfigTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTests.swift; sourceTree = "<group>"; };
+		E0BF42DB903B605447108FC6 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E0D586192B2FF74C009B4BA7 /* DiscoveryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryConfig.swift; sourceTree = "<group>"; };
 		E0D586352B314CD3009B4BA7 /* LogistrationBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogistrationBottomView.swift; sourceTree = "<group>"; };
+		E3E54C649245F0265E7EAFCD /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E8D9725130C85DA55AD474A4 /* Pods-CoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTests.debug.xcconfig"; path = "Target Support Files/Pods-CoreTests/Pods-CoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB8D49C5834673D028F40686 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F4E50CE1DB6AA77E9B5D09EF /* Pods-App-Core-CoreTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core-CoreTests.debugprod.xcconfig"; path = "Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		F7554D47B89E0E9BBD82668C /* de-DE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de-DE"; path = "de-DE.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F7ED6F0C276DBD2F1BA38987 /* Pods-CoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTests.release.xcconfig"; path = "Target Support Files/Pods-CoreTests/Pods-CoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8114F198C7E662F34295D05 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		FB6C49AC95A27A1222AD0F06 /* Pods-App-Core-CoreTests.releasestage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Core-CoreTests.releasestage.xcconfig"; path = "Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests.releasestage.xcconfig"; sourceTree = "<group>"; };
 		FD97820E148E423964AC0CAB /* Pods-CoreTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTests.releasedev.xcconfig"; path = "Target Support Files/Pods-CoreTests/Pods-CoreTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		FEA44100A18A2EDE14346E86 /* af-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "af-ZA"; path = "af-ZA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1018,6 +1064,44 @@
 				en,
 				Base,
 				uk,
+				ar,
+				fa,
+				"zh-HK",
+				bo,
+				"af-ZA",
+				vi,
+				lv,
+				uz,
+				es,
+				he,
+				el,
+				ja,
+				sq,
+				"it-IT",
+				es_419,
+				sw,
+				da,
+				kk,
+				"fr-CA",
+				"tr-TR",
+				"es-ES",
+				sv,
+				te,
+				ko,
+				hu,
+				pl,
+				"pt-BR",
+				ru,
+				"zh-CN",
+				"de-DE",
+				fr,
+				id,
+				nl,
+				th,
+				az,
+				"pt-PT",
+				ro,
+				hi,
 			);
 			mainGroup = 0770DDFE28D07831006D8A5D;
 			packageReferences = (
@@ -1083,9 +1167,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-App-Core-CoreTests/Pods-App-Core-CoreTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1324,6 +1412,52 @@
 			isa = PBXVariantGroup;
 			children = (
 				0770DE5C28D0B209006D8A5D /* en */,
+				F8114F198C7E662F34295D05 /* zh-HK */,
+				9C8D451896BBE775EAAA80D4 /* af-ZA */,
+				935C4D0F97DBBBC280E67B63 /* zh-HK */,
+				2017456595CA8F05B63FBA35 /* af-ZA */,
+				2FA843E1A1E691E2E832003E /* zh-HK */,
+				FEA44100A18A2EDE14346E86 /* af-ZA */,
+				06034BA38B0F49AE975AAEF6 /* zh-HK */,
+				CB0344DDA094381765F46562 /* af-ZA */,
+				3A1044FDB8C1825E77CE8F28 /* he */,
+				27F041B4BB944DA1F5C5BB8E /* ar */,
+				827043FA874C9DC792EF828D /* el */,
+				A252496BA01FCC72E0787CA9 /* ja */,
+				AF334DFF806C26DD6A2863C4 /* fa */,
+				01664F43B3EFB22D75E2F90B /* sq */,
+				D6BD4CDDB36827D75DA09294 /* it-IT */,
+				D65A47A1AE6FFAEBE5830F79 /* uk */,
+				C0B044C7B7135FCE7DC6A107 /* zh-HK */,
+				72A348E4A01984A5D0B185F3 /* es_419 */,
+				8A0E4FE89102E6A175B9845E /* sw */,
+				E0BF42DB903B605447108FC6 /* da */,
+				658145C8B25EAB96E788D427 /* kk */,
+				146B44248EC6E86735B79DC6 /* fr-CA */,
+				5871436BB7F955E246CDE6E3 /* tr-TR */,
+				36364816A84852FC332189A9 /* es-ES */,
+				A47A4992840688C1D8D2D9E0 /* sv */,
+				429A44AF8D508BE7BF06C40D /* te */,
+				124143FE811E2C25790BCBC5 /* ko */,
+				0CD1476FA57121BB45489BC0 /* bo */,
+				EB8D49C5834673D028F40686 /* af-ZA */,
+				74274DB78917C908462C35BA /* hu */,
+				5E244366AE36608F386F5B51 /* pl */,
+				4F194789940E7F7CDF1B6F2E /* pt-BR */,
+				E3E54C649245F0265E7EAFCD /* vi */,
+				2C9940C5B4CA1B3F662AAC21 /* lv */,
+				BF0840E88D719C6EC260E989 /* ru */,
+				94B14477965C5CD7EDFFADB7 /* zh-CN */,
+				F7554D47B89E0E9BBD82668C /* de-DE */,
+				44874C9EB5D94B5B1B4C7F5F /* uz */,
+				736A4EB4B66517C5F517CA48 /* fr */,
+				A4FF4C35BB76C8E246A1B6B0 /* id */,
+				79934F5BB24E341853F768DC /* nl */,
+				9FBC4EE1963D7D1239A57ECF /* th */,
+				012747DE9D47CFFB76A838E2 /* az */,
+				63A548799400035FF0219003 /* pt-PT */,
+				10774CEA9A82E2F8C3910390 /* ro */,
+				0963484ABED553F894AB6330 /* hi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
