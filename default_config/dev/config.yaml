@@ -1,9 +1,9 @@
-API_HOST_URL: 'https://verde.cursos.aprende.gob.mx'
-SSO_URL: 'https://verde.cursos.aprende.gob.mx'
-SSO_FINISHED_URL:  'https://verde.cursos.aprende.gob.mx'
-ENVIRONMENT_DISPLAY_NAME: 'Verde'
+API_HOST_URL: 'https://dev.mexicox.gob.mx'
+SSO_URL: 'https://dev.mexicox.gob.mx'
+SSO_FINISHED_URL:  'https://dev.mexicox.gob.mx'
+ENVIRONMENT_DISPLAY_NAME: 'Cursos'
 FEEDBACK_EMAIL_ADDRESS: 'support@example.com'
-OAUTH_CLIENT_ID: '83xvTzfuCKAlCwr0kYdCXAxdyXHJIvg7jJXOZioY'
+OAUTH_CLIENT_ID: 'QKlIlTUsjMYZfGPvcD7oWub993qNK69Enn87yQLJ'
 
 SSO_BUTTON_TITLE:
     ar: "الدخول عبر SSO"

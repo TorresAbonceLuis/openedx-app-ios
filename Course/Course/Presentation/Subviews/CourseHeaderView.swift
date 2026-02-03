@@ -22,7 +22,7 @@ struct CourseHeaderView: View {
     
     private let collapsedHorizontalHeight: CGFloat = 230
     private let collapsedVerticalHeight: CGFloat = 260
-    private let expandedHeight: CGFloat = 400
+    private let expandedHeight: CGFloat = 550
     
     private let courseRawImage: String?
     private enum GeometryName {
