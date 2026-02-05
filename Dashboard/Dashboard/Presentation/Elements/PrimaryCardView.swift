@@ -82,7 +82,7 @@ public struct PrimaryCardView: View {
         VStack(alignment: .leading, spacing: 0) {
             Group {
                 courseBanner
-                    .frame(height: 140)
+                    .frame(height: 350)
                     .clipped()
                 ProgressLineView(progressEarned: progressEarned, progressPossible: progressPossible)
                 courseTitle
