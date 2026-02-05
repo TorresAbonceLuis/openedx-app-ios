@@ -53,7 +53,7 @@ public struct SignInView: View {
                 ThemeAssets.appLogo.swiftUIImage
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(maxWidth: 189, maxHeight: 89)
+                    .frame(maxWidth: 220, maxHeight: 131)
                     .padding(.top, isHorizontal ? 20 : 40)
                     .padding(.bottom, isHorizontal ? 10 : 40)
                     .accessibilityIdentifier("logo_image")
@@ -71,7 +71,7 @@ public struct SignInView: View {
                                     Text(AuthLocalization.SignIn.welcomeBack)
                                         .font(Theme.Fonts.titleSmall)
                                         .foregroundColor(Theme.Colors.textPrimary)
-                                        .padding(.bottom, 20)
+                                        .padding(.bottom, 10)
                                         .accessibilityIdentifier("welcome_back_text")
                                     if viewModel.socialAuthEnabled {
                                         SocialAuthView(
@@ -114,7 +114,7 @@ public struct SignInView: View {
                                     Text(AuthLocalization.SignIn.password)
                                         .font(Theme.Fonts.labelLarge)
                                         .foregroundColor(Theme.Colors.textPrimary)
-                                        .padding(.top, 18)
+                                        .padding(.top, 5)
                                         .accessibilityIdentifier("password_text")
                                     SecureInputView($password)
                                         .font(Theme.Fonts.bodyLarge)
@@ -168,7 +168,7 @@ public struct SignInView: View {
                                             }
                                         }
                                         .frame(maxWidth: .infinity)
-                                        .padding(.top, 20)
+                                        .padding(.top, 10)
                                         .accessibilityIdentifier("signin_button")
                                     }
                                     
@@ -235,15 +235,15 @@ public struct SignInView: View {
                                         .frame(maxWidth: .infinity, alignment: .leading)
                                         .background(Theme.Colors.cardViewBackground)
                                         
-                                        VStack(spacing: 4) {
+                                        VStack(alignment: .leading, spacing: 4) {
                                             HStack(spacing: 4) {
                                                 Text("Al iniciar sesión declaro que he leído los")
                                                     .font(Theme.Fonts.labelSmall)
-                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                    .foregroundColor(.black)
                                                 
                                                 Text("Términos y Condiciones")
                                                     .font(Theme.Fonts.labelSmall)
-                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                    .foregroundColor(Theme.Colors.infoColor)
                                                     .underline()
                                                     .accessibilityIdentifier("llave_mx_terms_button")
                                             }
@@ -251,22 +251,23 @@ public struct SignInView: View {
                                             HStack(spacing: 4) {
                                                 Text("y nuestro")
                                                     .font(Theme.Fonts.labelSmall)
-                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                    .foregroundColor(.black)
                                                 
                                                 Text("Aviso de Privacidad")
                                                     .font(Theme.Fonts.labelSmall)
-                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                    .foregroundColor(Theme.Colors.infoColor)
                                                     .underline()
                                                     .accessibilityIdentifier("llave_mx_privacy_button")
                                                 
                                                 Text(".")
                                                     .font(Theme.Fonts.labelSmall)
-                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                    .foregroundColor(.black)
                                             }
                                         }
-                                        .padding(.top, 8)
+                                        .padding(.top, 2)
                                         .padding(.bottom, 16)
-                                        .frame(maxWidth: .infinity)
+                                        .padding(.horizontal, 16)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
                                         .background(Theme.Colors.cardViewBackground)
                                     }
                                     .background(Theme.Colors.cardViewBackground)
@@ -352,7 +353,6 @@ public struct SignInView: View {
                             Spacer()
                         }
                         .padding(.horizontal, 24)
-                        .padding(.top, 50)
                         .frameLimit(width: proxy.size.width)
                     }
                     .roundedBackground(Theme.Colors.loginBackground)
