@@ -48,6 +48,7 @@ public enum ThemeAssets {
   public static let secondaryHeaderColor = ColorAsset(name: "secondaryHeaderColor")
   public static let courseProgressBG = ColorAsset(name: "CourseProgressBG")
   public static let deleteAccountBG = ColorAsset(name: "DeleteAccountBG")
+  public static let guindaColor = ColorAsset(name: "GuindaColor")
   public static let infoColor = ColorAsset(name: "InfoColor")
   public static let irreversibleAlert = ColorAsset(name: "IrreversibleAlert")
   public static let loginBackground = ColorAsset(name: "LoginBackground")

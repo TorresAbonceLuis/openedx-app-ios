@@ -168,9 +168,114 @@ public struct SignInView: View {
                                             }
                                         }
                                         .frame(maxWidth: .infinity)
-                                        .padding(.top, 40)
+                                        .padding(.top, 20)
                                         .accessibilityIdentifier("signin_button")
                                     }
+                                    
+                                    // MARK: - Llave MX Section
+                                    VStack(spacing: 0) {
+                                        HStack(spacing: 16) {
+                                            Spacer()
+                                            
+                                            AsyncImage(
+                                                url: URL(string: "https://aprende.gob.mx/images/llaveMX.png")
+                                            ) { phase in
+                                                switch phase {
+                                                case .empty:
+                                                    ProgressView()
+                                                        .frame(width: 60, height: 60)
+                                                case .success(let image):
+                                                    image
+                                                        .resizable()
+                                                        .aspectRatio(contentMode: .fit)
+                                                        .frame(height: 60)
+                                                case .failure:
+                                                    Image(systemName: "photo")
+                                                        .frame(width: 60, height: 60)
+                                                @unknown default:
+                                                    EmptyView()
+                                                }
+                                            }
+                                            .accessibilityIdentifier("llave_mx_image")
+                                            
+                                            Spacer()
+                                            
+                                            VStack(spacing: 8) {
+                                                Text("Iniciar sesión")
+                                                    .font(Theme.Fonts.labelMedium)
+                                                    .foregroundColor(Theme.Colors.white)
+                                                    .lineLimit(1)
+                                                    .fixedSize()
+                                                    .padding(.horizontal, 50)
+                                                    .padding(.vertical, 12)
+                                                    .background(Theme.Colors.guindaColor)
+                                                    .cornerRadius(8)
+                                                    .accessibilityIdentifier("llave_mx_signin_button")
+                                                
+                                                Text("Crear cuenta")
+                                                    .font(Theme.Fonts.labelMedium)
+                                                    .foregroundColor(Theme.Colors.guindaColor)
+                                                    .lineLimit(1)
+                                                    .fixedSize()
+                                                    .padding(.horizontal, 50)
+                                                    .padding(.vertical, 12)
+                                                    .background(Theme.Colors.white)
+                                                    .overlay(
+                                                        RoundedRectangle(cornerRadius: 8)
+                                                            .stroke(Theme.Colors.guindaColor, lineWidth: 1)
+                                                    )
+                                                    .cornerRadius(8)
+                                                    .accessibilityIdentifier("llave_mx_create_account_button")
+                                            }
+                                            
+                                            Spacer()
+                                        }
+                                        .padding(.vertical, 20)
+                                        .padding(.horizontal, 16)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                        .background(Theme.Colors.cardViewBackground)
+                                        
+                                        VStack(spacing: 4) {
+                                            HStack(spacing: 4) {
+                                                Text("Al iniciar sesión declaro que he leído los")
+                                                    .font(Theme.Fonts.labelSmall)
+                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                
+                                                Text("Términos y Condiciones")
+                                                    .font(Theme.Fonts.labelSmall)
+                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                    .underline()
+                                                    .accessibilityIdentifier("llave_mx_terms_button")
+                                            }
+                                            
+                                            HStack(spacing: 4) {
+                                                Text("y nuestro")
+                                                    .font(Theme.Fonts.labelSmall)
+                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                
+                                                Text("Aviso de Privacidad")
+                                                    .font(Theme.Fonts.labelSmall)
+                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                                    .underline()
+                                                    .accessibilityIdentifier("llave_mx_privacy_button")
+                                                
+                                                Text(".")
+                                                    .font(Theme.Fonts.labelSmall)
+                                                    .foregroundColor(Theme.Colors.textSecondaryLight)
+                                            }
+                                        }
+                                        .padding(.top, 8)
+                                        .padding(.bottom, 16)
+                                        .frame(maxWidth: .infinity)
+                                        .background(Theme.Colors.cardViewBackground)
+                                    }
+                                    .background(Theme.Colors.cardViewBackground)
+                                    .cornerRadius(8)
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .stroke(Theme.Colors.guindaColor, lineWidth: 2)
+                                    )
+                                    .padding(.top, 20)
                                 }
                                 if viewModel.config.uiComponents.samlSSOLoginEnabled {
                                     if !viewModel.config.uiComponents.loginRegistrationEnabled {
