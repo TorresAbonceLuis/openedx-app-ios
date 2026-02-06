@@ -72,6 +72,7 @@ struct AssignmentCarouselDetailCardView: View {
             .background(content: {
                 Theme.Colors.cardViewBackground
             })
+            .clipShape(RoundedRectangle(cornerRadius: 8))
             .overlay(
                 RoundedRectangle(cornerRadius: 8)
                     .stroke(style: .init(lineWidth: 1, lineCap: .round, lineJoin: .round, miterLimit: 1))
