@@ -35,6 +35,7 @@ public protocol ConfigProtocol: Sendable {
     var program: DiscoveryConfig { get }
     var experimentalFeatures: ExperimentalFeaturesConfig { get }
     var URIScheme: String { get }
+    var llaveMX: LlaveMXConfig { get }
 }
 
 public enum TokenType: String, Sendable {
@@ -190,6 +191,9 @@ extension Config: ConfigProtocol {
     public var URIScheme: String {
         return string(for: ConfigKeys.URIScheme.rawValue) ?? ""
     }
+    public var llaveMX: LlaveMXConfig {
+    return LlaveMXConfig(dictionary: dict(for: "LLAVEMX") ?? [:])
+}
 }
 
 // Mark - For testing and SwiftUI preview
@@ -238,3 +242,17 @@ public class ConfigMock: Config, @unchecked Sendable {
     }
 }
 #endif
+
+// Pega esto al final de Config.swift, fuera de cualquier clase
+
+public struct LlaveMXConfig {
+    public let enabled: Bool
+    public let clientID: String
+    public let redirectURI: String
+    
+    init(dictionary: [String: Any]) {
+        self.enabled = dictionary["ENABLED"] as? Bool ?? false
+        self.clientID = dictionary["CLIENT_ID"] as? String ?? ""
+        self.redirectURI = dictionary["REDIRECT_URI"] as? String ?? ""
+    }
+}

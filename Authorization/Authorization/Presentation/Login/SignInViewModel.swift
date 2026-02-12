@@ -179,4 +179,17 @@ public class SignInViewModel: ObservableObject {
             biValue: .logistrationSignIn
         )
     }
+    
+    @MainActor
+    func signInWithLlaveMX() async {
+        let socialAuthViewModel = SocialAuthViewModel(
+            config: config,
+            lastUsedOption: storage.lastUsedSocialAuth
+        ) { [weak self] result in
+            Task { @MainActor in
+                await self?.login(with: result)
+            }
+        }
+        await socialAuthViewModel.signInWithLlaveMX()
+    }
 }

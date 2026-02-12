@@ -201,31 +201,44 @@ public struct SignInView: View {
                                             Spacer()
                                             
                                             VStack(spacing: 8) {
-                                                Text("Iniciar sesión")
-                                                    .font(Theme.Fonts.labelMedium)
-                                                    .foregroundColor(Theme.Colors.white)
-                                                    .lineLimit(1)
-                                                    .fixedSize()
-                                                    .padding(.horizontal, 50)
-                                                    .padding(.vertical, 12)
-                                                    .background(Theme.Colors.guindaColor)
-                                                    .cornerRadius(8)
-                                                    .accessibilityIdentifier("llave_mx_signin_button")
+                                                Button {
+                                                    Task {
+                                                        await viewModel.signInWithLlaveMX()
+                                                    }
+                                                } label: {
+                                                    Text("Iniciar sesión")
+                                                        .font(Theme.Fonts.labelMedium)
+                                                        .foregroundColor(Theme.Colors.white)
+                                                        .lineLimit(1)
+                                                        .fixedSize()
+                                                        .padding(.horizontal, 50)
+                                                        .padding(.vertical, 12)
+                                                        .background(Theme.Colors.guindaColor)
+                                                        .cornerRadius(8)
+                                                }
+                                                .accessibilityIdentifier("llave_mx_signin_button")
                                                 
-                                                Text("Crear cuenta")
-                                                    .font(Theme.Fonts.labelMedium)
-                                                    .foregroundColor(Theme.Colors.guindaColor)
-                                                    .lineLimit(1)
-                                                    .fixedSize()
-                                                    .padding(.horizontal, 50)
-                                                    .padding(.vertical, 12)
-                                                    .background(Theme.Colors.white)
-                                                    .overlay(
-                                                        RoundedRectangle(cornerRadius: 8)
-                                                            .stroke(Theme.Colors.guindaColor, lineWidth: 1)
-                                                    )
-                                                    .cornerRadius(8)
-                                                    .accessibilityIdentifier("llave_mx_create_account_button")
+                                                Button {
+                                                    // Abrir URL de crear cuenta de Llave MX
+                                                    if let url = URL(string: "https://www.gob.mx/llavemx") {
+                                                        UIApplication.shared.open(url)
+                                                    }
+                                                } label: {
+                                                    Text("Crear cuenta")
+                                                        .font(Theme.Fonts.labelMedium)
+                                                        .foregroundColor(Theme.Colors.guindaColor)
+                                                        .lineLimit(1)
+                                                        .fixedSize()
+                                                        .padding(.horizontal, 50)
+                                                        .padding(.vertical, 12)
+                                                        .background(Theme.Colors.white)
+                                                        .overlay(
+                                                            RoundedRectangle(cornerRadius: 8)
+                                                                .stroke(Theme.Colors.guindaColor, lineWidth: 1)
+                                                        )
+                                                        .cornerRadius(8)
+                                                }
+                                                .accessibilityIdentifier("llave_mx_create_account_button")
                                             }
                                             
                                             Spacer()

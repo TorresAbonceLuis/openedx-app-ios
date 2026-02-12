@@ -19,6 +19,7 @@ import FirebaseCore
 import FirebaseMessaging
 import Theme
 import BackgroundTasks
+import Authorization
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -104,40 +105,78 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
         guard let config = Container.shared.resolve(ConfigProtocol.self) else { return false }
 
-        if let deepLinkManager = Container.shared.resolve(DeepLinkManager.self),
-            deepLinkManager.anyServiceEnabled {
-            if deepLinkManager.handledURLWith(app: app, open: url, options: options) {
-                return true
-            }
+        if handleDeepLink(app: app, url: url, options: options) {
+            return true
         }
 
-        if config.facebook.enabled {
-            if ApplicationDelegate.shared.application(
-                app,
-                open: url,
-                sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
-                annotation: options[UIApplication.OpenURLOptionsKey.annotation]
-            ) {
-                return true
-            }
+        if handleFacebookURL(config: config, app: app, url: url, options: options) {
+            return true
         }
 
-        if config.google.enabled {
-            if GIDSignIn.sharedInstance.handle(url) {
-                return true
-            }
+        if handleGoogleURL(config: config, url: url) {
+            return true
         }
 
-        if config.microsoft.enabled {
-            if MSALPublicClientApplication.handleMSALResponse(
-                url,
-                sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String
-            ) {
-                return true
-            }
+        if handleMicrosoftURL(config: config, url: url, options: options) {
+            return true
+        }
+
+        if handleLlaveMXURL(config: config, url: url) {
+            return true
         }
 
         return false
+    }
+    
+    // MARK: - URL Handling Helpers
+    
+    private func handleDeepLink(
+        app: UIApplication,
+        url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any]
+    ) -> Bool {
+        if let deepLinkManager = Container.shared.resolve(DeepLinkManager.self),
+           deepLinkManager.anyServiceEnabled {
+            return deepLinkManager.handledURLWith(app: app, open: url, options: options)
+        }
+        return false
+    }
+    
+    private func handleFacebookURL(
+        config: ConfigProtocol,
+        app: UIApplication,
+        url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any]
+    ) -> Bool {
+        guard config.facebook.enabled else { return false }
+        return ApplicationDelegate.shared.application(
+            app,
+            open: url,
+            sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+            annotation: options[UIApplication.OpenURLOptionsKey.annotation]
+        )
+    }
+    
+    private func handleGoogleURL(config: ConfigProtocol, url: URL) -> Bool {
+        guard config.google.enabled else { return false }
+        return GIDSignIn.sharedInstance.handle(url)
+    }
+    
+    private func handleMicrosoftURL(
+        config: ConfigProtocol,
+        url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any]
+    ) -> Bool {
+        guard config.microsoft.enabled else { return false }
+        return MSALPublicClientApplication.handleMSALResponse(
+            url,
+            sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String
+        )
+    }
+    
+    private func handleLlaveMXURL(config: ConfigProtocol, url: URL) -> Bool {
+        guard config.llaveMX.enabled else { return false }
+        return LlaveMXAuthProvider.resumeAuthorizationFlow(with: url)
     }
     
     private func initPlugins() {

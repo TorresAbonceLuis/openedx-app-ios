@@ -11,6 +11,7 @@ import AuthenticationServices
 import FacebookLogin
 import GoogleSignIn
 import MSAL
+import AppAuth
 import Swinject
 
 enum SocialAuthDetails {
@@ -18,6 +19,7 @@ enum SocialAuthDetails {
     case facebook(SocialAuthResponse)
     case google(SocialAuthResponse)
     case microsoft(SocialAuthResponse)
+    case llavemx(SocialAuthResponse)
 
     var backend: String {
         switch self {
@@ -29,6 +31,8 @@ enum SocialAuthDetails {
             "google-oauth2"
         case .microsoft:
             "azuread-oauth2"
+        case .llavemx:
+            "llavemx-mobile"
         }
     }
     
@@ -42,6 +46,8 @@ enum SocialAuthDetails {
             .socialAuth(.google)
         case .microsoft:
             .socialAuth(.microsoft)
+        case .llavemx:
+            .socialAuth(.llavemx)
         }
     }
 
@@ -50,7 +56,8 @@ enum SocialAuthDetails {
         case .apple(let response),
              .facebook(let response),
              .google(let response),
-             .microsoft(let response):
+             .microsoft(let response),
+             .llavemx(let response):
             return response
         }
     }
@@ -85,6 +92,7 @@ final public class SocialAuthViewModel: ObservableObject {
     private lazy var googleAuthProvider: GoogleAuthProvider = .init()
     private lazy var facebookAuthProvider: FacebookAuthProvider = .init()
     private lazy var microsoftAuthProvider: MicrosoftAuthProvider = .init()
+    private lazy var llavemxAuthProvider: LlaveMXAuthProvider = .init()
 
     private var topViewController: UIViewController? {
         UIApplication.topViewController()
@@ -102,6 +110,10 @@ final public class SocialAuthViewModel: ObservableObject {
 
     var microsoftEnabled: Bool {
         config.microsoft.enabled
+    }
+
+    var llavemxEnabled: Bool {
+        config.llaveMX.enabled
     }
 
     var appleSignInEnabled: Bool {
@@ -127,6 +139,10 @@ final public class SocialAuthViewModel: ObservableObject {
         
         if faceboolEnabled {
             enabledOptions.append(.facebook)
+        }
+        
+        if llavemxEnabled {
+            enabledOptions.append(.llavemx)
         }
         
         if appleSignInEnabled {
@@ -172,6 +188,41 @@ final public class SocialAuthViewModel: ObservableObject {
         let result = await microsoftAuthProvider.signIn(withPresenting: vc)
         result.success { success(with: .microsoft($0)) }
         result.failure(failure)
+    }
+
+    @MainActor
+    func signInWithLlaveMX() async {
+        guard let vc = topViewController else {
+            return
+        }
+        
+        await withCheckedContinuation { continuation in
+            llavemxAuthProvider.authorize(from: vc) { [weak self] accessToken, error in
+                guard let self else {
+                    continuation.resume()
+                    return
+                }
+                
+                if let error = error {
+                    self.failure(error)
+                } else if let accessToken = accessToken {
+                    let response = SocialAuthResponse(
+                        name: "",
+                        email: "",
+                        token: accessToken
+                    )
+                    self.success(with: .llavemx(response))
+                } else {
+                    let unknownError = NSError(
+                        domain: "LlaveMX",
+                        code: -1,
+                        userInfo: [NSLocalizedDescriptionKey: "Error desconocido"]
+                    )
+                    self.failure(unknownError)
+                }
+                continuation.resume()
+            }
+        }
     }
 
     private func success(with social: SocialAuthDetails) {

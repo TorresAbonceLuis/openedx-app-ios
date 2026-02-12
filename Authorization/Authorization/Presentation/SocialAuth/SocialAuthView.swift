@@ -126,6 +126,13 @@ struct SocialAuthView: View {
                 accessibilityIdentifier: "social_auth_microsoft_button",
                 action: { Task { await viewModel.signInWithMicrosoft() }}
             )
+        case .llavemx:
+            return SocialAuthButton(
+                image: CoreAssets.iconMicrosoftWhite.swiftUIImage,
+                accessibilityLabel: "\(title) Llave MX",
+                accessibilityIdentifier: "social_auth_llavemx_button",
+                action: { Task { await viewModel.signInWithLlaveMX() }}
+            )
         }
     }
     

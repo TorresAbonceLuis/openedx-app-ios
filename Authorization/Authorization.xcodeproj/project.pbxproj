@@ -32,6 +32,7 @@
 		99C165512C0C4F7B00DC384D /* SSOWebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C165502C0C4F7B00DC384D /* SSOWebViewModel.swift */; };
 		BA8B3A322AD5487300D25EF5 /* SocialAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B3A312AD5487300D25EF5 /* SocialAuthView.swift */; };
 		BADB3F552AD6DFC3004D5CFA /* SocialAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB3F542AD6DFC3004D5CFA /* SocialAuthViewModel.swift */; };
+		CBC601392F3BEDC6006B34F3 /* LlaveMXAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC601382F3BEDC6006B34F3 /* LlaveMXAuthProvider.swift */; };
 		CE7CAF2D2CC155BE00E0AC9D /* OEXFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = CE7CAF2C2CC155BE00E0AC9D /* OEXFoundation */; };
 		CE7FB8772CC13C0B0088001A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = CE7FB8762CC13C0B0088001A /* FacebookLogin */; };
 		CE7FB87A2CC13C3C0088001A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE7FB8792CC13C3C0088001A /* GoogleSignInSwift */; };
@@ -146,6 +147,7 @@
 		C68A4D7D9D90AE441EACF1ED /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C9B94DBC982DA299F7456105 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CB0C4F7BA5C3D9346901AA9C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBC601382F3BEDC6006B34F3 /* LlaveMXAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlaveMXAuthProvider.swift; sourceTree = "<group>"; };
 		CEB259FA2CC13A36007FC792 /* SocialAuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAuthError.swift; sourceTree = "<group>"; };
 		CEB259FC2CC13A36007FC792 /* AppleAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAuthProvider.swift; sourceTree = "<group>"; };
 		CEB259FD2CC13A36007FC792 /* GoogleAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthProvider.swift; sourceTree = "<group>"; };
@@ -393,6 +395,7 @@
 				CEB259FE2CC13A36007FC792 /* FacebookAuthProvider.swift */,
 				CEB259FF2CC13A36007FC792 /* MicrosoftAuthProvider.swift */,
 				CEB25A002CC13A36007FC792 /* SocialAuthResponse.swift */,
+				CBC601382F3BEDC6006B34F3 /* LlaveMXAuthProvider.swift */,
 			);
 			path = SocialAuth;
 			sourceTree = "<group>";
@@ -609,9 +612,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-App-Authorization-AuthorizationTests/Pods-App-Authorization-AuthorizationTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -675,6 +682,7 @@
 				E03261662AE64AF4002CA7EB /* StartupView.swift in Sources */,
 				071009C728D1DA4F00344290 /* SignInViewModel.swift in Sources */,
 				BA8B3A322AD5487300D25EF5 /* SocialAuthView.swift in Sources */,
+				CBC601392F3BEDC6006B34F3 /* LlaveMXAuthProvider.swift in Sources */,
 				99C1654D2C0C4F2F00DC384D /* SSOHelper.swift in Sources */,
 				CEB25A022CC13A36007FC792 /* AppleAuthProvider.swift in Sources */,
 				CEB25A032CC13A36007FC792 /* FacebookAuthProvider.swift in Sources */,

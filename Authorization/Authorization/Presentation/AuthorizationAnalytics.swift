@@ -31,6 +31,7 @@ public enum SocialAuthMethod: String {
     case google
     case microsoft
     case apple
+    case llavemx
 }
 
 //sourcery: AutoMockable

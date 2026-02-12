@@ -10,6 +10,8 @@ struct ViewAllButton: View {
         Button(action: action) {
             HStack(spacing: 4) {
                 CoreAssets.listViewIcon.swiftUIImage
+                    .renderingMode(.template)
+                    .foregroundColor(Theme.Colors.accentColor)
                 Text("\(CoreLocalization.view) \(section)")
                     .foregroundColor(Theme.Colors.accentColor)
                     .font(Theme.Fonts.labelLarge)
